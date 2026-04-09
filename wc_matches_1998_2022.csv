@@ -1,0 +1,449 @@
+year,date,stage,team_a,goals_a,team_b,goals_b,city
+1998,1998-06-10,group,Brazil,2,Scotland,1,Saint-Denis
+1998,1998-06-10,group,Morocco,2,Norway,2,Montpellier
+1998,1998-06-11,group,Italy,2,Chile,2,Bordeaux
+1998,1998-06-11,group,Cameroon,1,Austria,1,Toulouse
+1998,1998-06-12,group,Paraguay,0,Bulgaria,0,Montpellier
+1998,1998-06-12,group,Saudi Arabia,0,Denmark,1,Lens
+1998,1998-06-12,group,France,3,South Africa,0,Marseille
+1998,1998-06-13,group,Spain,2,Nigeria,3,Nantes
+1998,1998-06-13,group,South Korea,1,Mexico,3,Lyon
+1998,1998-06-13,group,Netherlands,0,Belgium,0,Saint-Denis
+1998,1998-06-14,group,Argentina,1,Japan,0,Toulouse
+1998,1998-06-14,group,Yugoslavia,1,Iran,0,Saint-Étienne
+1998,1998-06-14,group,Jamaica,1,Croatia,3,Lens
+1998,1998-06-15,group,England,2,Tunisia,0,Marseille
+1998,1998-06-15,group,Romania,1,Colombia,0,Lyon
+1998,1998-06-15,group,Germany,2,United States,0,Paris
+1998,1998-06-16,group,Scotland,1,Norway,1,Bordeaux
+1998,1998-06-16,group,Brazil,3,Morocco,0,Nantes
+1998,1998-06-17,group,Chile,1,Austria,1,Saint-Étienne
+1998,1998-06-17,group,Italy,3,Cameroon,0,Montpellier
+1998,1998-06-18,group,South Africa,1,Denmark,1,Toulouse
+1998,1998-06-18,group,France,4,Saudi Arabia,0,Saint-Denis
+1998,1998-06-19,group,Nigeria,1,Bulgaria,0,Paris
+1998,1998-06-19,group,Spain,0,Paraguay,0,Saint-Étienne
+1998,1998-06-20,group,Japan,0,Croatia,1,Nantes
+1998,1998-06-20,group,Belgium,2,Mexico,2,Bordeaux
+1998,1998-06-20,group,Netherlands,5,South Korea,0,Marseille
+1998,1998-06-21,group,Germany,2,Yugoslavia,2,Lens
+1998,1998-06-21,group,Argentina,5,Jamaica,0,Paris
+1998,1998-06-21,group,United States,1,Iran,2,Lyon
+1998,1998-06-22,group,Colombia,1,Tunisia,0,Montpellier
+1998,1998-06-22,group,Romania,2,England,1,Toulouse
+1998,1998-06-23,group,Chile,1,Cameroon,1,Nantes
+1998,1998-06-23,group,Italy,2,Austria,1,Saint-Denis
+1998,1998-06-23,group,Brazil,1,Norway,2,Marseille
+1998,1998-06-23,group,Scotland,0,Morocco,3,Saint-Étienne
+1998,1998-06-24,group,France,2,Denmark,1,Lyon
+1998,1998-06-24,group,South Africa,2,Saudi Arabia,2,Bordeaux
+1998,1998-06-24,group,Nigeria,1,Paraguay,3,Toulouse
+1998,1998-06-24,group,Spain,6,Bulgaria,1,Lens
+1998,1998-06-25,group,Belgium,1,South Korea,1,Paris
+1998,1998-06-25,group,Netherlands,2,Mexico,2,Saint-Étienne
+1998,1998-06-25,group,Germany,2,Iran,0,Montpellier
+1998,1998-06-25,group,United States,0,Yugoslavia,1,Nantes
+1998,1998-06-26,group,Argentina,1,Croatia,0,Bordeaux
+1998,1998-06-26,group,Japan,1,Jamaica,2,Lyon
+1998,1998-06-26,group,Colombia,0,England,2,Lens
+1998,1998-06-26,group,Romania,1,Tunisia,1,Saint-Denis
+1998,1998-06-27,r16,Italy,1,Norway,0,Marseille
+1998,1998-06-27,r16,Brazil,4,Chile,1,Paris
+1998,1998-06-28,r16,France,1,Paraguay,0,Lens
+1998,1998-06-28,r16,Nigeria,1,Denmark,4,Saint-Denis
+1998,1998-06-29,r16,Germany,2,Mexico,1,Montpellier
+1998,1998-06-29,r16,Netherlands,2,Yugoslavia,1,Toulouse
+1998,1998-06-30,r16,Romania,0,Croatia,1,Bordeaux
+1998,1998-06-30,r16,Argentina,2,England,2,Saint-Étienne
+1998,1998-07-03,qf,Italy,0,France,0,Saint-Denis
+1998,1998-07-03,qf,Brazil,3,Denmark,2,Nantes
+1998,1998-07-04,qf,Netherlands,2,Argentina,1,Marseille
+1998,1998-07-04,qf,Germany,0,Croatia,3,Lyon
+1998,1998-07-07,sf,Brazil,1,Netherlands,1,Marseille
+1998,1998-07-08,sf,France,2,Croatia,1,Saint-Denis
+1998,1998-07-11,third,Netherlands,1,Croatia,2,Paris
+1998,1998-07-12,final,Brazil,0,France,3,Saint-Denis
+2002,2002-05-31,group,France,0,Senegal,1,Seoul
+2002,2002-06-01,group,Republic of Ireland,1,Cameroon,1,Niigata
+2002,2002-06-01,group,Uruguay,1,Denmark,2,Ulsan
+2002,2002-06-01,group,Germany,8,Saudi Arabia,0,Sapporo
+2002,2002-06-02,group,Argentina,1,Nigeria,0,Ibaraki
+2002,2002-06-02,group,Paraguay,2,South Africa,2,Busan
+2002,2002-06-02,group,England,1,Sweden,1,Saitama
+2002,2002-06-02,group,Spain,3,Slovenia,1,Gwangju
+2002,2002-06-03,group,Croatia,0,Mexico,1,Niigata
+2002,2002-06-03,group,Brazil,2,Turkey,1,Ulsan
+2002,2002-06-03,group,Italy,2,Ecuador,0,Sapporo
+2002,2002-06-04,group,China,0,Costa Rica,2,Gwangju
+2002,2002-06-04,group,Japan,2,Belgium,2,Saitama
+2002,2002-06-04,group,South Korea,2,Poland,0,Busan
+2002,2002-06-05,group,Russia,2,Tunisia,0,Kobe
+2002,2002-06-05,group,United States,3,Portugal,2,Suwon
+2002,2002-06-05,group,Germany,1,Republic of Ireland,1,Ibaraki
+2002,2002-06-06,group,Denmark,1,Senegal,1,Daegu
+2002,2002-06-06,group,Cameroon,1,Saudi Arabia,0,Saitama
+2002,2002-06-06,group,France,0,Uruguay,0,Busan
+2002,2002-06-07,group,Sweden,2,Nigeria,1,Kobe
+2002,2002-06-07,group,Spain,3,Paraguay,1,Jeonju
+2002,2002-06-07,group,Argentina,0,England,1,Sapporo
+2002,2002-06-08,group,South Africa,1,Slovenia,0,Daegu
+2002,2002-06-08,group,Italy,1,Croatia,2,Ibaraki
+2002,2002-06-08,group,Brazil,4,China,0,Seogwipo
+2002,2002-06-09,group,Mexico,2,Ecuador,1,Miyagi
+2002,2002-06-09,group,Costa Rica,1,Turkey,1,Incheon
+2002,2002-06-09,group,Japan,1,Russia,0,Yokohama
+2002,2002-06-10,group,South Korea,1,United States,1,Daegu
+2002,2002-06-10,group,Tunisia,1,Belgium,1,Ōita
+2002,2002-06-10,group,Portugal,4,Poland,0,Jeonju
+2002,2002-06-11,group,Denmark,2,France,0,Incheon
+2002,2002-06-11,group,Senegal,3,Uruguay,3,Suwon
+2002,2002-06-11,group,Cameroon,0,Germany,2,Shizuoka
+2002,2002-06-11,group,Saudi Arabia,0,Republic of Ireland,3,Yokohama
+2002,2002-06-12,group,Nigeria,0,England,0,Osaka
+2002,2002-06-12,group,Sweden,1,Argentina,1,Miyagi
+2002,2002-06-12,group,Slovenia,1,Paraguay,3,Seogwipo
+2002,2002-06-12,group,South Africa,2,Spain,3,Daejeon
+2002,2002-06-13,group,Costa Rica,2,Brazil,5,Suwon
+2002,2002-06-13,group,Turkey,3,China,0,Seoul
+2002,2002-06-13,group,Ecuador,1,Croatia,0,Yokohama
+2002,2002-06-13,group,Mexico,1,Italy,1,Ōita
+2002,2002-06-14,group,Belgium,3,Russia,2,Shizuoka
+2002,2002-06-14,group,Tunisia,0,Japan,2,Osaka
+2002,2002-06-14,group,Poland,3,United States,1,Daejeon
+2002,2002-06-14,group,Portugal,0,South Korea,1,Incheon
+2002,2002-06-15,r16,Germany,1,Paraguay,0,Seogwipo
+2002,2002-06-15,r16,Denmark,0,England,3,Niigata
+2002,2002-06-16,r16,Sweden,1,Senegal,2,Ōita
+2002,2002-06-16,r16,Spain,1,Republic of Ireland,1,Suwon
+2002,2002-06-17,r16,Mexico,0,United States,2,Jeonju
+2002,2002-06-17,r16,Brazil,2,Belgium,0,Kobe
+2002,2002-06-18,r16,Japan,0,Turkey,1,Miyagi
+2002,2002-06-18,r16,South Korea,2,Italy,1,Daejeon
+2002,2002-06-21,qf,England,1,Brazil,2,Shizuoka
+2002,2002-06-21,qf,Germany,1,United States,0,Ulsan
+2002,2002-06-22,qf,Spain,0,South Korea,0,Gwangju
+2002,2002-06-22,qf,Senegal,0,Turkey,1,Osaka
+2002,2002-06-25,sf,Germany,1,South Korea,0,Seoul
+2002,2002-06-26,sf,Brazil,1,Turkey,0,Saitama
+2002,2002-06-29,third,South Korea,2,Turkey,3,Daegu
+2002,2002-06-30,final,Germany,0,Brazil,2,Yokohama
+2006,2006-06-09,group,Germany,4,Costa Rica,2,Munich
+2006,2006-06-09,group,Poland,0,Ecuador,2,Gelsenkirchen
+2006,2006-06-10,group,England,1,Paraguay,0,Frankfurt
+2006,2006-06-10,group,Trinidad and Tobago,0,Sweden,0,Dortmund
+2006,2006-06-10,group,Argentina,2,Ivory Coast,1,Hamburg
+2006,2006-06-11,group,Serbia and Montenegro,0,Netherlands,1,Leipzig
+2006,2006-06-11,group,Mexico,3,Iran,1,Nuremberg
+2006,2006-06-11,group,Angola,0,Portugal,1,Cologne
+2006,2006-06-12,group,Australia,3,Japan,1,Kaiserslautern
+2006,2006-06-12,group,United States,0,Czech Republic,3,Gelsenkirchen
+2006,2006-06-12,group,Italy,2,Ghana,0,Hanover
+2006,2006-06-13,group,South Korea,2,Togo,1,Frankfurt
+2006,2006-06-13,group,France,0,Switzerland,0,Stuttgart
+2006,2006-06-13,group,Brazil,1,Croatia,0,Berlin
+2006,2006-06-14,group,Spain,4,Ukraine,0,Leipzig
+2006,2006-06-14,group,Tunisia,2,Saudi Arabia,2,Munich
+2006,2006-06-14,group,Germany,1,Poland,0,Dortmund
+2006,2006-06-15,group,Ecuador,3,Costa Rica,0,Hamburg
+2006,2006-06-15,group,England,2,Trinidad and Tobago,0,Nuremberg
+2006,2006-06-15,group,Sweden,1,Paraguay,0,Berlin
+2006,2006-06-16,group,Argentina,6,Serbia and Montenegro,0,Gelsenkirchen
+2006,2006-06-16,group,Netherlands,2,Ivory Coast,1,Stuttgart
+2006,2006-06-16,group,Mexico,0,Angola,0,Hanover
+2006,2006-06-17,group,Portugal,2,Iran,0,Frankfurt
+2006,2006-06-17,group,Czech Republic,0,Ghana,2,Cologne
+2006,2006-06-17,group,Italy,1,United States,1,Kaiserslautern
+2006,2006-06-18,group,Japan,0,Croatia,0,Nuremberg
+2006,2006-06-18,group,Brazil,2,Australia,0,Munich
+2006,2006-06-18,group,France,1,South Korea,1,Leipzig
+2006,2006-06-19,group,Togo,0,Switzerland,2,Dortmund
+2006,2006-06-19,group,Saudi Arabia,0,Ukraine,4,Hamburg
+2006,2006-06-19,group,Spain,3,Tunisia,1,Stuttgart
+2006,2006-06-20,group,Costa Rica,1,Poland,2,Hanover
+2006,2006-06-20,group,Ecuador,0,Germany,3,Berlin
+2006,2006-06-20,group,Paraguay,2,Trinidad and Tobago,0,Kaiserslautern
+2006,2006-06-20,group,Sweden,2,England,2,Cologne
+2006,2006-06-21,group,Iran,1,Angola,1,Leipzig
+2006,2006-06-21,group,Portugal,2,Mexico,1,Gelsenkirchen
+2006,2006-06-21,group,Ivory Coast,3,Serbia and Montenegro,2,Munich
+2006,2006-06-21,group,Netherlands,0,Argentina,0,Frankfurt
+2006,2006-06-22,group,Czech Republic,0,Italy,2,Hamburg
+2006,2006-06-22,group,Ghana,2,United States,1,Nuremberg
+2006,2006-06-22,group,Croatia,2,Australia,2,Stuttgart
+2006,2006-06-22,group,Japan,1,Brazil,4,Dortmund
+2006,2006-06-23,group,Saudi Arabia,0,Spain,1,Kaiserslautern
+2006,2006-06-23,group,Ukraine,1,Tunisia,0,Berlin
+2006,2006-06-23,group,Switzerland,2,South Korea,0,Hanover
+2006,2006-06-23,group,Togo,0,France,2,Cologne
+2006,2006-06-24,r16,Germany,2,Sweden,0,Munich
+2006,2006-06-24,r16,Argentina,2,Mexico,1,Leipzig
+2006,2006-06-25,r16,England,1,Ecuador,0,Stuttgart
+2006,2006-06-25,r16,Portugal,1,Netherlands,0,Nuremberg
+2006,2006-06-26,r16,Italy,1,Australia,0,Kaiserslautern
+2006,2006-06-26,r16,Switzerland,0,Ukraine,0,Cologne
+2006,2006-06-27,r16,Brazil,3,Ghana,0,Dortmund
+2006,2006-06-27,r16,Spain,1,France,3,Hanover
+2006,2006-06-30,qf,Germany,1,Argentina,1,Berlin
+2006,2006-06-30,qf,Italy,3,Ukraine,0,Hamburg
+2006,2006-07-01,qf,England,0,Portugal,0,Gelsenkirchen
+2006,2006-07-01,qf,Brazil,0,France,1,Frankfurt
+2006,2006-07-04,sf,Germany,0,Italy,2,Dortmund
+2006,2006-07-05,sf,Portugal,0,France,1,Munich
+2006,2006-07-08,third,Germany,3,Portugal,1,Stuttgart
+2006,2006-07-09,final,Italy,1,France,1,Berlin
+2010,2010-06-11,group,South Africa,1,Mexico,1,Johannesburg
+2010,2010-06-11,group,Uruguay,0,France,0,Cape Town
+2010,2010-06-12,group,South Korea,2,Greece,0,Port Elizabeth
+2010,2010-06-12,group,Argentina,1,Nigeria,0,Johannesburg
+2010,2010-06-12,group,England,1,United States,1,Rustenburg
+2010,2010-06-13,group,Algeria,0,Slovenia,1,Polokwane
+2010,2010-06-13,group,Serbia,0,Ghana,1,Pretoria
+2010,2010-06-13,group,Germany,4,Australia,0,Durban
+2010,2010-06-14,group,Netherlands,2,Denmark,0,Johannesburg
+2010,2010-06-14,group,Japan,1,Cameroon,0,Bloemfontein
+2010,2010-06-14,group,Italy,1,Paraguay,1,Cape Town
+2010,2010-06-15,group,New Zealand,1,Slovakia,1,Rustenburg
+2010,2010-06-15,group,Ivory Coast,0,Portugal,0,Port Elizabeth
+2010,2010-06-15,group,Brazil,2,North Korea,1,Johannesburg
+2010,2010-06-16,group,Honduras,0,Chile,1,Nelspruit
+2010,2010-06-16,group,Spain,0,Switzerland,1,Durban
+2010,2010-06-16,group,South Africa,0,Uruguay,3,Pretoria
+2010,2010-06-17,group,Argentina,4,South Korea,1,Johannesburg
+2010,2010-06-17,group,Greece,2,Nigeria,1,Bloemfontein
+2010,2010-06-17,group,France,0,Mexico,2,Polokwane
+2010,2010-06-18,group,Germany,0,Serbia,1,Port Elizabeth
+2010,2010-06-18,group,Slovenia,2,United States,2,Johannesburg
+2010,2010-06-18,group,England,0,Algeria,0,Cape Town
+2010,2010-06-19,group,Netherlands,1,Japan,0,Durban
+2010,2010-06-19,group,Ghana,1,Australia,1,Rustenburg
+2010,2010-06-19,group,Cameroon,1,Denmark,2,Pretoria
+2010,2010-06-20,group,Slovakia,0,Paraguay,2,Bloemfontein
+2010,2010-06-20,group,Italy,1,New Zealand,1,Nelspruit
+2010,2010-06-20,group,Brazil,3,Ivory Coast,1,Johannesburg
+2010,2010-06-21,group,Portugal,7,North Korea,0,Cape Town
+2010,2010-06-21,group,Chile,1,Switzerland,0,Port Elizabeth
+2010,2010-06-21,group,Spain,2,Honduras,0,Johannesburg
+2010,2010-06-22,group,France,1,South Africa,2,Bloemfontein
+2010,2010-06-22,group,Mexico,0,Uruguay,1,Rustenburg
+2010,2010-06-22,group,Greece,0,Argentina,2,Polokwane
+2010,2010-06-22,group,Nigeria,2,South Korea,2,Durban
+2010,2010-06-23,group,Slovenia,0,England,1,Port Elizabeth
+2010,2010-06-23,group,United States,1,Algeria,0,Pretoria
+2010,2010-06-23,group,Australia,2,Serbia,1,Nelspruit
+2010,2010-06-23,group,Ghana,0,Germany,1,Johannesburg
+2010,2010-06-24,group,Paraguay,0,New Zealand,0,Polokwane
+2010,2010-06-24,group,Slovakia,3,Italy,2,Johannesburg
+2010,2010-06-24,group,Cameroon,1,Netherlands,2,Cape Town
+2010,2010-06-24,group,Denmark,1,Japan,3,Rustenburg
+2010,2010-06-25,group,North Korea,0,Ivory Coast,3,Nelspruit
+2010,2010-06-25,group,Portugal,0,Brazil,0,Durban
+2010,2010-06-25,group,Chile,1,Spain,2,Pretoria
+2010,2010-06-25,group,Switzerland,0,Honduras,0,Bloemfontein
+2010,2010-06-26,r16,Uruguay,2,South Korea,1,Port Elizabeth
+2010,2010-06-26,r16,United States,1,Ghana,2,Rustenburg
+2010,2010-06-27,r16,Germany,4,England,1,Bloemfontein
+2010,2010-06-27,r16,Argentina,3,Mexico,1,Johannesburg
+2010,2010-06-28,r16,Netherlands,2,Slovakia,1,Durban
+2010,2010-06-28,r16,Brazil,3,Chile,0,Johannesburg
+2010,2010-06-29,r16,Paraguay,0,Japan,0,Pretoria
+2010,2010-06-29,r16,Spain,1,Portugal,0,Cape Town
+2010,2010-07-02,qf,Netherlands,2,Brazil,1,Port Elizabeth
+2010,2010-07-02,qf,Uruguay,1,Ghana,1,Johannesburg
+2010,2010-07-03,qf,Argentina,0,Germany,4,Cape Town
+2010,2010-07-03,qf,Paraguay,0,Spain,1,Johannesburg
+2010,2010-07-06,sf,Uruguay,2,Netherlands,3,Cape Town
+2010,2010-07-07,sf,Germany,0,Spain,1,Durban
+2010,2010-07-10,third,Uruguay,2,Germany,3,Port Elizabeth
+2010,2010-07-11,final,Netherlands,0,Spain,1,Johannesburg
+2014,2014-06-12,group,Brazil,3,Croatia,1,São Paulo
+2014,2014-06-13,group,Mexico,1,Cameroon,0,Natal
+2014,2014-06-13,group,Spain,1,Netherlands,5,Salvador
+2014,2014-06-13,group,Chile,3,Australia,1,Cuiabá
+2014,2014-06-14,group,Colombia,3,Greece,0,Belo Horizonte
+2014,2014-06-14,group,Uruguay,1,Costa Rica,3,Fortaleza
+2014,2014-06-14,group,England,1,Italy,2,Manaus
+2014,2014-06-14,group,Ivory Coast,2,Japan,1,Recife
+2014,2014-06-15,group,Switzerland,2,Ecuador,1,Brasília
+2014,2014-06-15,group,France,3,Honduras,0,Porto Alegre
+2014,2014-06-15,group,Argentina,2,Bosnia and Herzegovina,1,Rio de Janeiro
+2014,2014-06-16,group,Germany,4,Portugal,0,Salvador
+2014,2014-06-16,group,Iran,0,Nigeria,0,Curitiba
+2014,2014-06-16,group,Ghana,1,United States,2,Natal
+2014,2014-06-17,group,Belgium,2,Algeria,1,Belo Horizonte
+2014,2014-06-17,group,Brazil,0,Mexico,0,Fortaleza
+2014,2014-06-17,group,Russia,1,South Korea,1,Cuiabá
+2014,2014-06-18,group,Australia,2,Netherlands,3,Porto Alegre
+2014,2014-06-18,group,Spain,0,Chile,2,Rio de Janeiro
+2014,2014-06-18,group,Cameroon,0,Croatia,4,Manaus
+2014,2014-06-19,group,Colombia,2,Ivory Coast,1,Brasília
+2014,2014-06-19,group,Uruguay,2,England,1,São Paulo
+2014,2014-06-19,group,Japan,0,Greece,0,Natal
+2014,2014-06-20,group,Italy,0,Costa Rica,1,Recife
+2014,2014-06-20,group,Switzerland,2,France,5,Salvador
+2014,2014-06-20,group,Honduras,1,Ecuador,2,Curitiba
+2014,2014-06-21,group,Argentina,1,Iran,0,Belo Horizonte
+2014,2014-06-21,group,Germany,2,Ghana,2,Fortaleza
+2014,2014-06-21,group,Nigeria,1,Bosnia and Herzegovina,0,Cuiabá
+2014,2014-06-22,group,Belgium,1,Russia,0,Rio de Janeiro
+2014,2014-06-22,group,South Korea,2,Algeria,4,Porto Alegre
+2014,2014-06-22,group,United States,2,Portugal,2,Manaus
+2014,2014-06-23,group,Australia,0,Spain,3,Curitiba
+2014,2014-06-23,group,Netherlands,2,Chile,0,São Paulo
+2014,2014-06-23,group,Cameroon,1,Brazil,4,Brasília
+2014,2014-06-23,group,Croatia,1,Mexico,3,Recife
+2014,2014-06-24,group,Costa Rica,0,England,0,Belo Horizonte
+2014,2014-06-24,group,Italy,0,Uruguay,1,Natal
+2014,2014-06-24,group,Japan,1,Colombia,4,Cuiabá
+2014,2014-06-24,group,Greece,2,Ivory Coast,1,Fortaleza
+2014,2014-06-25,group,Bosnia and Herzegovina,3,Iran,1,Salvador
+2014,2014-06-25,group,Nigeria,2,Argentina,3,Porto Alegre
+2014,2014-06-25,group,Honduras,0,Switzerland,3,Manaus
+2014,2014-06-25,group,Ecuador,0,France,0,Rio de Janeiro
+2014,2014-06-26,group,Portugal,2,Ghana,1,Brasília
+2014,2014-06-26,group,United States,0,Germany,1,Recife
+2014,2014-06-26,group,Algeria,1,Russia,1,Curitiba
+2014,2014-06-26,group,South Korea,0,Belgium,1,São Paulo
+2014,2014-06-28,r16,Brazil,1,Chile,1,Belo Horizonte
+2014,2014-06-28,r16,Colombia,2,Uruguay,0,Rio de Janeiro
+2014,2014-06-29,r16,Netherlands,2,Mexico,1,Fortaleza
+2014,2014-06-29,r16,Costa Rica,1,Greece,1,Recife
+2014,2014-06-30,r16,France,2,Nigeria,0,Brasília
+2014,2014-06-30,r16,Germany,2,Algeria,1,Porto Alegre
+2014,2014-07-01,r16,Argentina,1,Switzerland,0,São Paulo
+2014,2014-07-01,r16,Belgium,2,United States,1,Salvador
+2014,2014-07-04,qf,France,0,Germany,1,Rio de Janeiro
+2014,2014-07-04,qf,Brazil,2,Colombia,1,Fortaleza
+2014,2014-07-05,qf,Argentina,1,Belgium,0,Brasília
+2014,2014-07-05,qf,Netherlands,0,Costa Rica,0,Salvador
+2014,2014-07-08,sf,Brazil,1,Germany,7,Belo Horizonte
+2014,2014-07-09,sf,Netherlands,0,Argentina,0,São Paulo
+2014,2014-07-12,third,Brazil,0,Netherlands,3,Brasília
+2014,2014-07-13,final,Germany,1,Argentina,0,Rio de Janeiro
+2018,2018-06-14,group,Russia,5,Saudi Arabia,0,Moscow
+2018,2018-06-15,group,Egypt,0,Uruguay,1,Yekaterinburg
+2018,2018-06-15,group,Morocco,0,Iran,1,Saint Petersburg
+2018,2018-06-15,group,Portugal,3,Spain,3,Sochi
+2018,2018-06-16,group,France,2,Australia,1,Kazan
+2018,2018-06-16,group,Argentina,1,Iceland,1,Moscow
+2018,2018-06-16,group,Peru,0,Denmark,1,Saransk
+2018,2018-06-16,group,Croatia,2,Nigeria,0,Kaliningrad
+2018,2018-06-17,group,Costa Rica,0,Serbia,1,Samara
+2018,2018-06-17,group,Germany,0,Mexico,1,Moscow
+2018,2018-06-17,group,Brazil,1,Switzerland,1,Rostov-on-Don
+2018,2018-06-18,group,Sweden,1,South Korea,0,Nizhny Novgorod
+2018,2018-06-18,group,Belgium,3,Panama,0,Sochi
+2018,2018-06-18,group,Tunisia,1,England,2,Volgograd
+2018,2018-06-19,group,Colombia,1,Japan,2,Saransk
+2018,2018-06-19,group,Poland,1,Senegal,2,Moscow
+2018,2018-06-19,group,Russia,3,Egypt,1,Saint Petersburg
+2018,2018-06-20,group,Portugal,1,Morocco,0,Moscow
+2018,2018-06-20,group,Uruguay,1,Saudi Arabia,0,Rostov-on-Don
+2018,2018-06-20,group,Iran,0,Spain,1,Kazan
+2018,2018-06-21,group,Denmark,1,Australia,1,Samara
+2018,2018-06-21,group,France,1,Peru,0,Yekaterinburg
+2018,2018-06-21,group,Argentina,0,Croatia,3,Nizhny Novgorod
+2018,2018-06-22,group,Brazil,2,Costa Rica,0,Saint Petersburg
+2018,2018-06-22,group,Nigeria,2,Iceland,0,Volgograd
+2018,2018-06-22,group,Serbia,1,Switzerland,2,Kaliningrad
+2018,2018-06-23,group,Belgium,5,Tunisia,2,Moscow
+2018,2018-06-23,group,South Korea,1,Mexico,2,Rostov-on-Don
+2018,2018-06-23,group,Germany,2,Sweden,1,Sochi
+2018,2018-06-24,group,England,6,Panama,1,Nizhny Novgorod
+2018,2018-06-24,group,Japan,2,Senegal,2,Yekaterinburg
+2018,2018-06-24,group,Poland,0,Colombia,3,Kazan
+2018,2018-06-25,group,Saudi Arabia,2,Egypt,1,Volgograd
+2018,2018-06-25,group,Uruguay,3,Russia,0,Samara
+2018,2018-06-25,group,Spain,2,Morocco,2,Kaliningrad
+2018,2018-06-25,group,Iran,1,Portugal,1,Saransk
+2018,2018-06-26,group,Australia,0,Peru,2,Sochi
+2018,2018-06-26,group,Denmark,0,France,0,Moscow
+2018,2018-06-26,group,Iceland,1,Croatia,2,Rostov-on-Don
+2018,2018-06-26,group,Nigeria,1,Argentina,2,Saint Petersburg
+2018,2018-06-27,group,South Korea,2,Germany,0,Kazan
+2018,2018-06-27,group,Mexico,0,Sweden,3,Yekaterinburg
+2018,2018-06-27,group,Serbia,0,Brazil,2,Moscow
+2018,2018-06-27,group,Switzerland,2,Costa Rica,2,Nizhny Novgorod
+2018,2018-06-28,group,Japan,0,Poland,1,Volgograd
+2018,2018-06-28,group,Senegal,0,Colombia,1,Samara
+2018,2018-06-28,group,England,0,Belgium,1,Kaliningrad
+2018,2018-06-28,group,Panama,1,Tunisia,2,Saransk
+2018,2018-06-30,r16,France,4,Argentina,3,Kazan
+2018,2018-06-30,r16,Uruguay,2,Portugal,1,Sochi
+2018,2018-07-01,r16,Spain,1,Russia,1,Moscow
+2018,2018-07-01,r16,Croatia,1,Denmark,1,Nizhny Novgorod
+2018,2018-07-02,r16,Brazil,2,Mexico,0,Samara
+2018,2018-07-02,r16,Belgium,3,Japan,2,Rostov-on-Don
+2018,2018-07-03,r16,Sweden,1,Switzerland,0,Saint Petersburg
+2018,2018-07-03,r16,Colombia,1,England,1,Moscow
+2018,2018-07-06,qf,Uruguay,0,France,2,Nizhny Novgorod
+2018,2018-07-06,qf,Brazil,1,Belgium,2,Kazan
+2018,2018-07-07,qf,Sweden,0,England,2,Samara
+2018,2018-07-07,qf,Russia,2,Croatia,2,Sochi
+2018,2018-07-10,sf,France,1,Belgium,0,Saint Petersburg
+2018,2018-07-11,sf,Croatia,2,England,1,Moscow
+2018,2018-07-14,third,Belgium,2,England,0,Saint Petersburg
+2018,2018-07-15,final,France,4,Croatia,2,Moscow
+2022,2022-11-20,group,Qatar,0,Ecuador,2,Al Khor
+2022,2022-11-21,group,England,6,Iran,2,Al Rayyan
+2022,2022-11-21,group,Senegal,0,Netherlands,2,Doha
+2022,2022-11-21,group,United States,1,Wales,1,Al Rayyan
+2022,2022-11-22,group,Argentina,1,Saudi Arabia,2,Lusail
+2022,2022-11-22,group,Denmark,0,Tunisia,0,Al Rayyan
+2022,2022-11-22,group,Mexico,0,Poland,0,Doha
+2022,2022-11-22,group,France,4,Australia,1,Al Wakrah
+2022,2022-11-23,group,Morocco,0,Croatia,0,Al Khor
+2022,2022-11-23,group,Germany,1,Japan,2,Al Rayyan
+2022,2022-11-23,group,Spain,7,Costa Rica,0,Doha
+2022,2022-11-23,group,Belgium,1,Canada,0,Al Rayyan
+2022,2022-11-24,group,Switzerland,1,Cameroon,0,Al Wakrah
+2022,2022-11-24,group,Uruguay,0,South Korea,0,Al Rayyan
+2022,2022-11-24,group,Portugal,3,Ghana,2,Doha
+2022,2022-11-24,group,Brazil,2,Serbia,0,Lusail
+2022,2022-11-25,group,Wales,0,Iran,2,Al Rayyan
+2022,2022-11-25,group,Qatar,1,Senegal,3,Doha
+2022,2022-11-25,group,Netherlands,1,Ecuador,1,Al Rayyan
+2022,2022-11-25,group,England,0,United States,0,Al Khor
+2022,2022-11-26,group,Tunisia,0,Australia,1,Al Wakrah
+2022,2022-11-26,group,Poland,2,Saudi Arabia,0,Al Rayyan
+2022,2022-11-26,group,France,2,Denmark,1,Doha
+2022,2022-11-26,group,Argentina,2,Mexico,0,Lusail
+2022,2022-11-27,group,Japan,0,Costa Rica,1,Al Rayyan
+2022,2022-11-27,group,Belgium,0,Morocco,2,Doha
+2022,2022-11-27,group,Croatia,4,Canada,1,Al Rayyan
+2022,2022-11-27,group,Spain,1,Germany,1,Al Khor
+2022,2022-11-28,group,Cameroon,3,Serbia,3,Al Wakrah
+2022,2022-11-28,group,South Korea,2,Ghana,3,Al Rayyan
+2022,2022-11-28,group,Brazil,1,Switzerland,0,Doha
+2022,2022-11-28,group,Portugal,2,Uruguay,0,Lusail
+2022,2022-11-29,group,Ecuador,1,Senegal,2,Al Rayyan
+2022,2022-11-29,group,Netherlands,2,Qatar,0,Al Khor
+2022,2022-11-29,group,Iran,0,United States,1,Doha
+2022,2022-11-29,group,Wales,0,England,3,Al Rayyan
+2022,2022-11-30,group,Australia,1,Denmark,0,Al Wakrah
+2022,2022-11-30,group,Tunisia,1,France,0,Al Rayyan
+2022,2022-11-30,group,Poland,0,Argentina,2,Doha
+2022,2022-11-30,group,Saudi Arabia,1,Mexico,2,Lusail
+2022,2022-12-01,group,Canada,1,Morocco,2,Doha
+2022,2022-12-01,group,Croatia,0,Belgium,0,Al Rayyan
+2022,2022-12-01,group,Costa Rica,2,Germany,4,Al Khor
+2022,2022-12-01,group,Japan,2,Spain,1,Al Rayyan
+2022,2022-12-02,group,Ghana,0,Uruguay,2,Al Wakrah
+2022,2022-12-02,group,South Korea,2,Portugal,1,Al Rayyan
+2022,2022-12-02,group,Cameroon,1,Brazil,0,Lusail
+2022,2022-12-02,group,Serbia,2,Switzerland,3,Doha
+2022,2022-12-03,r16,Netherlands,3,United States,1,Al Rayyan
+2022,2022-12-03,r16,Argentina,2,Australia,1,Al Rayyan
+2022,2022-12-04,r16,France,3,Poland,1,Doha
+2022,2022-12-04,r16,England,3,Senegal,0,Al Khor
+2022,2022-12-05,r16,Japan,1,Croatia,1,Al Wakrah
+2022,2022-12-05,r16,Brazil,4,South Korea,1,Doha
+2022,2022-12-06,r16,Morocco,0,Spain,0,Al Rayyan
+2022,2022-12-06,r16,Portugal,6,Switzerland,1,Lusail
+2022,2022-12-09,qf,Croatia,1,Brazil,1,Al Rayyan
+2022,2022-12-09,qf,Netherlands,2,Argentina,2,Lusail
+2022,2022-12-10,qf,Morocco,1,Portugal,0,Doha
+2022,2022-12-10,qf,England,1,France,2,Al Khor
+2022,2022-12-13,sf,Argentina,3,Croatia,0,Lusail
+2022,2022-12-14,sf,France,2,Morocco,0,Al Khor
+2022,2022-12-17,third,Croatia,2,Morocco,1,Al Rayyan
+2022,2022-12-18,final,Argentina,3,France,3,Lusail

@@ -1,0 +1,456 @@
+Warning: --allowed-tools cli argument and tools.allowed in settings.json are deprecated and will be removed in 1.0: Migrate to Policy Engine: https://geminicli.com/docs/core/policy-engine/Registering notification handlers for server 'bigquery'. Capabilities: { prompts: { listChanged: false }, tools: { listChanged: false } }
+Server 'bigquery' has tools but did not declare 'listChanged' capability. Listening anyway for robustness...
+Server 'bigquery' has prompts but did not declare 'listChanged' capability. Listening anyway for robustness...
+Scheduling MCP context refresh...
+Executing MCP context refresh...
+MCP context refresh complete.
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-08-955Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 6) {
+  code: 404
+}
+Error during web search for query "South Korea football midfield injuries April 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 6)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-08-957Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 7) {
+  code: 404
+}
+Error during web search for query "Lyle Foster fitness status Burnley South Africa squad April 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 7)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-08-958Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 13) {
+  code: 404
+}
+Error during web search for query "how often does host nation win opening World Cup match": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 13)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-08-968Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 4) {
+  code: 404
+}
+Error during web search for query "Edson Alvarez ankle injury status West Ham Mexico squad April 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 4)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-08-989Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 16) {
+  code: 404
+}
+Error during web search for query "Patrik Schick club stats 2025-26 season": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 16)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-026Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 0) {
+  code: 404
+}
+Error during web search for query "Mexico national football team latest results and form 2025 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 0)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-031Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 1) {
+  code: 404
+}
+Error during web search for query "South Korea national football team scoring form and results March April 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 1)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-041Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 5) {
+  code: 404
+}
+Error during web search for query "Mexico goalkeeper Malagon injury replacement Ochoa return 2026 world cup": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 5)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-060Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 15) {
+  code: 404
+}
+Error during web search for query "Son Heung-min club stats 2025-26 season": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 15)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-064Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 10) {
+  code: 404
+}
+Error during web search for query "South Korea football manager change 2026": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 10)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-065Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 14) {
+  code: 404
+}
+Error during web search for query "average goals in international football matches at high altitude (>1500m)": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 14)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-068Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 9) {
+  code: 404
+}
+Error during web search for query "sportsbook match odds for World Cup 2026 Group A matches": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 9)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-072Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 3) {
+  code: 404
+}
+Error during web search for query "Czechia national football team results since Euro 2024 qualification": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 3)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-072Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 17) {
+  code: 404
+}
+Error during web search for query "Raul Jimenez club stats 2025-26 season": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 17)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-074Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 2) {
+  code: 404
+}
+Error during web search for query "South Africa national football team Bafana Bafana results since AFCON 2025": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 2)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-075Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 11) {
+  code: 404
+}
+Error during web search for query "average goals per match in World Cup group openers": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 11)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-079Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 8) {
+  code: 404
+}
+Error during web search for query "Polymarket odds FIFA World Cup 2026 Group A winner": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 8)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error generating content via API with model gemini-3-flash-preview. Full report available at: /var/folders/37/6p_qzk491pz3w9t86ld41pjrcwts_z/T/gemini-client-error-generateContent-api-2026-04-09T11-07-09-087Z.json ModelNotFoundError: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at classifyGoogleError (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/googleQuotaErrors.js:166:16)
+    at retryWithBackoff (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/utils/retry.js:190:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:740:28)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 12) {
+  code: 404
+}
+Error during web search for query "historical rate of 0-0 draws in World Cup group stages": Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions Error: Failed to generate content with model gemini-3-flash-preview: Publisher Model `projects/rad-2-data-science-10157/locations/europe-west1/publishers/google/models/gemini-3-flash-preview` was not found or your project does not have access to it. Please ensure you are using a valid model version. For more information, see: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions
+    at GeminiClient.generateContent (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/client.js:767:19)
+    at async WebSearchToolInvocation.execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/tools/web-search.js:27:30)
+    at async executeToolWithHooks (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/coreToolHookTriggers.js:117:24)
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/tool-executor.js:62:36
+    at async file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/telemetry/trace.js:81:20
+    at async Scheduler._execute (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:426:24)
+    at async Promise.all (index 12)
+    at async Scheduler._processNextItem (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:318:33)
+    at async Scheduler._processQueue (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:265:36)
+    at async Scheduler._startBatch (file:///Users/akeros/.nvm/versions/node/v22.13.0/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/scheduler/scheduler.js:212:13)
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.
+Error executing tool google_web_search: Error performing web search.

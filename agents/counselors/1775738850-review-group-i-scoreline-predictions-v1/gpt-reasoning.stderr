@@ -1,0 +1,10 @@
+
+Total usage est:        1 Premium request
+API time spent:         10m 9s
+Total session time:     5m 9s
+Total code changes:     +0 -0
+Breakdown by AI model:
+ gpt-5.4                  562.3k in, 12.1k out, 508.5k cached (Est. 1 Premium request)
+ claude-opus-4.6          151.7k in, 2.9k out, 114.5k cached (Est. 0 Premium requests)
+ claude-sonnet-4.6        97.2k in, 5.9k out, 70.2k cached (Est. 0 Premium requests)
+ claude-haiku-4.5         198.8k in, 1.6k out, 154.6k cached (Est. 0 Premium requests)
