@@ -150,17 +150,17 @@ Japan's transition speed is Tunisia's kryptonite — Mitoma and Kubo find pocket
 
 ### Match 5: Japan vs Sweden — Wed Jun 25, AT&T Stadium (Arlington TX)
 
-**Pick: 1-2** (v3 adjustment)
+**Pick: 2-2** (v4 adjustment)
 
 | Factor | Assessment |
 |--------|-----------|
 | Model | λ(JPN)=1.47, λ(SWE)=1.30 → modal 1-1 (12.1%) |
 | Market | Likely Japan slight favorite |
 | Context | MD3 — both may need this result. More open (+0.08 stage effect). AC stadium removes weather |
-| Key | Gyokeres (17G Arsenal all comps) vs Japan's back 3. Potter's system isolates the striker |
-| v3 rationale | User bias: Sweden advance. Gyokeres masterclass + Potter's attacking system get the win |
+| Key | Gyokeres (17G Arsenal all comps) vs Japan's back 3. Isak fitness uncertain (Potter: "challenge to get him to peak form") |
+| v4 rationale | Sweden's May 12 squad is **defense-first** (11 DEFs, 5 MIDs) — undermines v3's "Potter's attacking system" thesis. Open MD3 between two attacking sides ends in a draw |
 
-The most exciting match on paper. MD3 desperation meets two teams that want to attack. Japan are slight favorites on form — but Potter's attacking system and Gyokeres' elite finishing prove decisive. The Arsenal striker (17 goals all comps — PL 11G, UCL 4G, 2 other) delivers when Sweden need him most, exploiting space in Japan's high defensive line. Sweden's wingbacks push high, creating overloads wide and isolating Gyokeres centrally. Japan score once through Mitoma's transition speed, but Sweden's direct approach and Gyokeres' clinical edge (he always scores) turn the match. Potter's brave tactics pay off: Sweden advance as runners-up on 6 points. Japan finish 3rd on 4 points — still a possible best-third qualifier.
+The most exciting match on paper. MD3 desperation meets two teams that want to attack. Sweden's May 12 final squad changes the calculus: Potter selected only 5 midfielders against 11 defenders, signalling a defense-first setup that contradicts v3's "brave attacking system" assumption. Isak made the squad but Potter publicly flagged he's not at peak form. Gyokeres still delivers — he always does (17 goals all comps for Arsenal) — but with reduced midfield runners and an underweight Isak, Sweden can't sustain pressure. Japan's depth (Mitoma, Kubo, Ueda) finds the equalizer. The 2-2 reflects an open, attacking contest where neither side fully imposes itself. Sweden's draw isn't enough — they finish 3rd on 4 points (best-third candidate). Japan advance as runners-up on 5 points.
 
 ### Match 6: Tunisia vs Netherlands — Wed Jun 25, Arrowhead Stadium (Kansas City MO)
 
@@ -180,43 +180,43 @@ Major model divergence. We pick 0-2 rather than the model's 1-1 because Netherla
 
 ## Group F Summary
 
-| Match | v1 Pick | v2 Pick | v3 Pick | Goals |
-|-------|---------|---------|---------|-------|
-| Netherlands vs Japan | 1-1 | 1-1 | 1-1 | 2 |
-| Sweden vs Tunisia | 1-0 | 1-0 | 1-0 | 1 |
-| Netherlands vs Sweden | 2-1 | 2-1 | 2-1 | 3 |
-| Tunisia vs Japan | 0-1 | **1-2** | 1-2 | 3 |
-| Japan vs Sweden | 2-1 | 2-1 | **1-2** | 3 |
-| Tunisia vs Netherlands | 0-2 | 0-2 | 0-2 | 2 |
-| **Total** | **12** | **14** | **14** | |
+| Match | v1 Pick | v2 Pick | v3 Pick | v4 Pick | Goals |
+|-------|---------|---------|---------|---------|-------|
+| Netherlands vs Japan | 1-1 | 1-1 | 1-1 | 1-1 | 2 |
+| Sweden vs Tunisia | 1-0 | 1-0 | 1-0 | 1-0 | 1 |
+| Netherlands vs Sweden | 2-1 | 2-1 | 2-1 | 2-1 | 3 |
+| Tunisia vs Japan | 0-1 | **1-2** | 1-2 | 1-2 | 3 |
+| Japan vs Sweden | 2-1 | 2-1 | **1-2** | **2-2** | 4 |
+| Tunisia vs Netherlands | 0-2 | 0-2 | 0-2 | 0-2 | 2 |
+| **Total** | **12** | **14** | **14** | **15** | |
 
-**Goals (v3):** 14 total (2.33 g/m) — unchanged from v2, aligned with model's 14.4
+**Goals (v4):** 15 total (2.50 g/m) — slightly above model's 14.4
 
-**Draws:** 1 of 6 (17%) — below 25% base rate but justified by clear quality separations in most matches
+**Draws:** 2 of 6 (33%) — closer to ~25% WC group base rate than v3's 17%
 
-### Predicted Standings
+### Predicted Standings (v4)
 
 | Pos | Team | W | D | L | GF | GA | GD | Pts |
 |-----|------|---|---|---|----|----|-----|-----|
 | 1 | Netherlands | 2 | 1 | 0 | 5 | 2 | +3 | 7 |
-| 2 | Sweden | 2 | 0 | 1 | 4 | 3 | +1 | 6 |
-| 3 | Japan | 1 | 1 | 1 | 4 | 4 | 0 | 4 |
+| 2 | Japan | 1 | 2 | 0 | 5 | 4 | +1 | 5 |
+| 3 | Sweden | 1 | 1 | 1 | 4 | 4 | 0 | 4 |
 | 4 | Tunisia | 0 | 0 | 3 | 1 | 5 | -4 | 0 |
 
-**Netherlands and Sweden advance.** Netherlands top the group on 7 points. Sweden advance as runners-up on 6 points — Gyokeres delivers when needed (2 goals in 3 matches, including the crucial MD3 winner vs Japan). Potter's attacking system and the Arsenal striker's elite finishing prove decisive.
+**Netherlands and Japan advance.** Netherlands top the group on 7 points. Japan advance as runners-up on 5 points — unbeaten group stage (1W 2D 0L), validating their pre-tournament form (beat England, Germany twice, Brazil since 2022).
 
-Japan finish 3rd with 4 points (1W 1D 1L, GD 0) — still a possible best-third qualifier depending on other groups. The loss to Sweden on MD3 denies them direct qualification despite their strong form and recent scalps (England, Brazil). The supporting cast around Mitoma and Kubo couldn't overcome Potter's tactical setup.
+Sweden finish 3rd with 4 points (1W 1D 1L, GD 0) — borderline best-third candidate. Potter's defense-first squad selection (May 12) and Isak's fitness flag undermined the v3 attacking thesis. The MD3 draw vs Japan wasn't enough.
 
-Tunisia finish 4th with 0 points and 1 goal scored — their historic defensive record (0 GA in qualifying) gives way against vastly superior attackers. The consolation goal vs Japan (1-2) avoids total humiliation but the attack remains limited. Seven WC appearances, still no group stage advancement.
+Tunisia finish 4th with 0 points and 1 goal scored — historic defensive record (0 GA in qualifying) gives way against vastly superior attackers. The consolation goal vs Japan (1-2) avoids total humiliation but the attack remains limited. Seven WC appearances, still no group stage advancement.
 
 ### Group Story
 The "group of no easy opponents" delivers drama until MD3. Netherlands control their destiny from the start, but the race for second place comes down to Sweden vs Japan on MD3.
 
-Sweden's story is redemption: Gyokeres is magnificent (2 goals in 3 matches, including the crucial MD3 winner) and Potter's brave attacking system delivers when it matters. The 1-0 win over Tunisia on MD1 sets the foundation, and despite losing 2-1 to Netherlands, Sweden's direct approach and Gyokeres' elite finishing (17 goals all comps for Arsenal — PL 11G, UCL 4G, 2 other) prove decisive against Japan. The injury crisis (Kulusevski, Lundgren OUT) threatened to derail them, but Potter's tactical clarity and Gyokeres' quality compensate. Sweden advance as runners-up on 6 points.
+Japan's story is vindication: they beat England and Brazil in the lead-up, draw 1-1 with Netherlands, dominate Tunisia 2-1, and grind out a 2-2 vs Sweden when they need it. Moriyasu's "chameleon football" — disciplined defense, lethal transitions through Mitoma and Kubo — proves itself at the elite level. Japan advance unbeaten on 5 points.
 
-Japan's story is frustrating brilliance: they beat England and Brazil in the lead-up, dominate Tunisia 2-1, and draw with Netherlands — but Potter's system and Gyokeres' clinical edge deny them on MD3. Japan finish 3rd on 4 points (GD 0) — still a possible best-third qualifier, but the loss to Sweden is a bitter pill after such a strong qualifying campaign (54 GF in 16 matches). Moriyasu's "chameleon football" couldn't adapt to Potter's attacking directness.
+Sweden's story is the gap between intent and execution. Gyokeres is magnificent in patches (2 goals across 3 matches), but Potter's May 12 squad selection — 11 defenders, only 5 midfielders, Isak flagged as not yet at peak form — contradicts the "brave attacking" identity that powered the v3 narrative. The 1-0 win over Tunisia and the spirited 1-2 loss to Netherlands set up the MD3 decider, but with thinner midfield runners and a not-fully-fit Isak, Sweden can't sustain enough pressure to beat Japan. The 2-2 draw leaves them on 4 points — best-third candidate, but their fate now rests on other groups.
 
-Tunisia's defensive fortress (0 GA in qualifying) crumbles. They concede 5 goals across 3 matches, including 2 to Japan. The consolation goal vs Japan (1-2) shows fight in the Monterrey heat but cannot change the outcome. The attack was always the problem: organized enough to stay in every match but not enough firepower to score against elite defenses or capitalize on the Sweden win. Seven WC appearances, still no group stage advancement.
+Tunisia's defensive fortress (0 GA in qualifying) crumbles. They concede 5 goals across 3 matches, including 2 to Japan. The consolation goal vs Japan (1-2) shows fight in the Monterrey heat but cannot change the outcome. The attack was always the problem: organized enough to stay in every match but not enough firepower to score against elite defenses. Seven WC appearances, still no group stage advancement.
 
 ---
 
@@ -243,6 +243,18 @@ Tunisia's defensive fortress (0 GA in qualifying) crumbles. They concede 5 goals
 ---
 
 ## Version Notes
+
+**v4 (2026-05-13)** — Squad announcement re-evaluation
+- Changed JPN vs SWE from 1-2 (Sweden win) to **2-2** (draw)
+- Trigger: Sweden's May 12 final 26-man squad announcement contradicts v3's attacking-system thesis
+  - Potter selected only 5 midfielders against 11 defenders — defense-first setup
+  - Isak included but Potter publicly flagged: "challenge to get him to peak form"
+  - Kulusevski confirmed OUT (knee, 1+ year sidelined) — was previously "MAJOR DOUBT"
+  - Lundgren OUT (Achilles) — already baked in
+- New standings: NED 1st (7pts +3), JPN 2nd (5pts +1), SWE 3rd (4pts 0), TUN 4th (0pts -4)
+- Japan advance as runners-up. Sweden 3rd → best-third candidate
+- Total goals: 14 → 15 (2.50 g/m). Draw rate: 17% → 33% (closer to base rate)
+- All other picks unchanged
 
 **v3 (2026-04-09)** — User override: Sweden advance
 - Changed JPN vs SWE from 2-1 to 1-2 (Sweden win on MD3)

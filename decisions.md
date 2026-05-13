@@ -4,6 +4,42 @@ Chronological record of every prediction, consultation, and reasoning.
 
 ---
 
+## 2026-05-13 — Group F v4: Squad Announcement Re-evaluation
+
+### Trigger
+Sweden announced final 26-man squad on May 12 (Graham Potter). Two surprises vs our v3 assumptions:
+1. **Defense-first selection:** 11 defenders, only 5 midfielders — contradicts v3's "Potter's brave attacking system" thesis that powered the Sweden-advance pick
+2. **Isak fitness flag:** Potter publicly stated "challenge to get Alex into peak form" — we'd assumed "expected fully fit"
+3. **Kulusevski confirmed OUT** (knee, 1+ year sidelined) — was previously "MAJOR DOUBT," now baked in
+
+### Decision
+Changed Match 5 (Japan vs Sweden, MD3) from **1-2 (Sweden win)** → **2-2 (draw)**.
+
+### Standings impact
+| Pos | Team | v3 (pts/GD) | v4 (pts/GD) |
+|-----|------|-------------|-------------|
+| 1 | Netherlands | 7 / +3 | 7 / +3 |
+| 2 | Sweden → Japan | SWE 6 / +1 | **JPN 5 / +1** |
+| 3 | Japan → Sweden | JPN 4 / 0 | **SWE 4 / 0** |
+| 4 | Tunisia | 0 / -4 | 0 / -4 |
+
+**Advancement flip:** Japan now top-2 direct. Sweden becomes best-third candidate (4 pts, 0 GD).
+
+### Quality check
+- Total goals: 14 → 15 (2.50 g/m, model expected 14.4)
+- Draws: 1/6 (17%) → 2/6 (33%) — closer to ~25% WC group base rate
+- All other picks unchanged
+
+### Knockout follow-on (TBD)
+R32 v1 had M76 Morocco vs Sweden (2-1). With Sweden now best-third instead of guaranteed runner-up, the R32 bracket pairings need to be re-derived once we re-run the rest of the squad announcements (May 22 / May 27 waves).
+
+### Sources
+- ESPN: "Alexander Isak headlines final 26-man Sweden World Cup roster" (May 12, 2026)
+- Khelnow: Sweden announce final squad ft. Isak (May 12, 2026)
+- Squawka: Sweden World Cup 2026 squad analysis (May 11–12, 2026)
+
+---
+
 ## 2026-04-09 — Total Goals Prediction
 
 ### Research Phase
